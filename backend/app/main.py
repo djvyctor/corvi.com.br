@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def root():
-    return {"status": "ok", "project": "Corvi"}
+def read_root():
+    return {"message": "Passou por aqui. 👍"}
