@@ -1,0 +1,28 @@
+#PYTHON / FASTAPI
+__pycache__/
+*.py[cod]
+*$py.class
+# Ambientes Virtuais
+.venv/
+env/
+venv/
+ENV/
+# Variáveis de Ambiente
+.env
+.env.local
+# Distribuição
+build/
+dist/
+*.egg-info/
+#FRONTEND
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# Build do frontend
+dist/
+dist-ssr/
+*.local
+.DS_Store
+.vscode/
+*.log
